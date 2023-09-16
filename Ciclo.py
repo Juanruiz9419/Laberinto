@@ -8,8 +8,7 @@ def ciclo():
     for i in range(1,51):
 
         key = readchar.readchar()
-        contador = 0
-
+        contador = -1
         if key <= 'n':
             contador +=i
             os.system('cls' if os.name=='nt' else 'clear')
