@@ -3,17 +3,16 @@ import readchar
 
 print(f"preciona la tecla 'N' hasta que te indique parar!!")
 
+def ciclo():    
 
-def limpiar():
-    os.system('cls' if os.name=='nt' else 'clear')
+    for i in range(1,51):
 
-while True:
-    tcl =readchar.readkey()
-    contador = 0
+        key = readchar.readchar()
+        contador = 0
 
-    if tcl <= readchar.key {78}:
-        limpiar
-        contador + 1
-        print(f"numero" , contador)
-    else:
-        print(f"Detente, fin del conteo")    
+        if key <= 'n':
+            contador +=i
+            os.system('cls' if os.name=='nt' else 'clear')
+            print(f"Vamos en el numero: " , contador)
+        
+ciclo()
